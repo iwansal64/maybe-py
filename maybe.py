@@ -71,6 +71,7 @@ if input("continue? [y/n] ") == 'y':
 				print(f"Wait {5*num_of_getting_limited} seconds for the next requests..")
 				sleep(5*num_of_getting_limited)
 		
+		i += 1
 		sleep(delay_between_requests)
 else:
 	print("aight bro.")
