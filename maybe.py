@@ -47,7 +47,8 @@ print()
 
 if input("continue? [y/n] ") == 'y':
 	num_of_getting_limited = 0
-	for i in range(num_of_requests):
+	i = 0
+	while (i < num_of_requests) if num_of_requests > 0 else (True):
 		print("\33[1;37mRequesting..", end="\r")
 		response = requests.get(target_url)
 		print("Request Done!")
