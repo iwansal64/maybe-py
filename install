@@ -1,3 +1,4 @@
+#!/bin/bash
 printf "\33[1;35mWELCOME TO MAYBE.PY INSTALLATION!!\r"
 
 sleep 2
